@@ -1,0 +1,78 @@
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.recorder-container {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: relative;
+}
+
+.recorder-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.turn-on-camera-button {
+  height: 48px;
+}
+
+.render-actions {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  z-index: 1000;
+}
+
+.render-actions p {
+  color: #fff;
+}
+
+.svg-icon {
+  display: flex;
+  position: absolute;
+  justify-self: center;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.upload-file-prompt {
+  color: #fff;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#video-view {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.countdown {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  z-index: 1000;
+}
+
+.countdown span {
+  color: #fff;
+}
